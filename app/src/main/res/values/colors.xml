@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#FF03A9F4</color>
+    <color name="primary_dark">#FF0288D1</color>
+    <color name="status_bar_color">@color/primary_dark</color>
+    <color name="swipe_color_1">#B6DB49</color>
+    <color name="swipe_color_2">#99CC00</color>
+    <color name="swipe_color_3">#8ABD00</color>
+    <color name="swipe_color_4">#7CAF00</color>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="detail_background">#0096a6</color>
+    <color name="soft_opaque">#30000000</color>
+    <color name="img_soft_opaque">#30FF0000</color>
+    <color name="img_full_opaque">#00000000</color>
+    <color name="black_opaque">#AA000000</color>
+    <color name="black">#59000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange_transparent">#AAFADCA7</color>
+    <color name="orange">#FADCA7</color>
+    <color name="yellow">#EEFF41</color>
+    <color name="default_background">#3d3d3d</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#e55452</color>
+    <color name="common_orange">#FF712B</color>
+
+    <color name="common_gray">#f3f3f3</color>
+
+    <color name="common_white">#FFFFFF</color>
+    <color name="common_white_one">#99FFFFFF</color>
+    <color name="common_black">#333333</color>
+    <color name="common_orange_deep">#ff5400</color>
+    <color name="common_black6">#666666</color>
+
+    <color name="common_blue">#00AAFF</color>
+    <color name="common_list_gap">#f7f7f7</color>
+    <color name="common_invest_text">#999999</color>
+    <color name="common_invest_background">#e5e5e5</color>
+
+    <color name="asset_holding_white">#66FFFFFF</color>
+
+    <color name="asset_holding_gray">#aeaeae</color>
+
+    <color name="default_bg_color">#f7f7f7</color>
+    <color name="btn_no_press">#c1c1c1</color>
+
+    <color name="Indigo_colorPrimaryDark">#303f9f</color>
+    <color name="Indigo_colorPrimary">#3f51b5</color>
+    <color name="Indigo_nav_color">#4675FF</color>
+</resources>

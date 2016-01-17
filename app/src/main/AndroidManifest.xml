@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.wjs.myapplication">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="icon,label,theme">
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55a3726a67e58ed112004105" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Channel ID" />
+
+        <activity
+            android:name=".activity.TestActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".UCPopupWindowActivity" -->
+        <!-- android:label="@string/title_activity_ucpopup_window" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".ScrollViewAndListViewActivity" -->
+        <!-- android:label="@string/title_activity_scroll_view_and_list_view" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.WaneImageViewActivity" -->
+        <!-- android:label="@string/title_activity_wane_image_view" > -->
+        <!-- </activity> -->
+        <!-- <ac <!-<activity -->
+        <!-- android:name=".activity.FragmentTabHostActivity" -->
+        <!-- android:label="@string/title_activity_fragment_tab_host" > -->
+        <!-- </activity>tivity -->
+        <!-- android:name=".activity.DrawerLayoutActivity" -->
+        <!-- android:label="@string/title_activity_drawer_layout" > -->
+        <!-- </activity> -->
+        -->
+        <!-- <activity -->
+        <!-- android:name=".activity.ZrcListViewActivity" -->
+        <!-- android:label="@string/title_activity_zrc_list_view" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.SwipeRefreshLayoutActivity" -->
+        <!-- android:label="@string/title_activity_swipe_refresh_layout" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.SlidingMenuActivity" -->
+        <!-- android:label="@string/title_activity_sliding_menu" > -->
+        <!-- </activity> -->
+
+        <activity
+            android:name=".activity.AnimationActivitySecond"
+            android:label="@string/title_activity_animation"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <!-- ************************************友盟更新服务************************************ -->
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" />
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- ************************************友盟更新服务************************************ -->
+        <!-- <activity -->
+        <!-- android:name=".activity.UmengUpdateActivity" -->
+        <!-- android:label="@string/title_activity_umeng_update" > -->
+        <!-- </activity> -->
+
+
+        <!-- <activity -->
+        <!-- android:name=".activity.VDHLayoutActivity" -->
+        <!-- android:label="@string/title_activity_vdhlayout" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.LogActivity" -->
+        <!-- android:label="@string/title_activity_log" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.YoutubeActivity" -->
+        <!-- android:label="@string/title_activity_youtube" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.GestureDetectorActivity" -->
+        <!-- android:label="@string/title_activity_gesture_detector" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.ViewDragHelperActivity" -->
+        <!-- android:label="@string/title_activity_view_drag_helper" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".activity.StickyNavLayoutActivity"
+            android:label="@string/title_activity_sticky_nav_layout" />
+        <activity
+            android:name=".activity.Li_Yong_Them_Qie_Huan_Activity"
+            android:label="@string/title_activity_li__yong__them__qie__huan_"
+            android:theme="@style/Anim_fade" />
+
+        <!-- <activity -->
+        <!-- android:name=".activity.CommonAdapterActivity" -->
+        <!-- android:label="@string/title_activity_common_adapter" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.EventBusActivity" -->
+        <!-- android:label="@string/title_activity_event_bus" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.ViewPagerAnimationActivity" -->
+        <!-- android:label="@string/title_activity_view_pager_animation" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".activity.DialogFragmentActivity"
+            android:label="@string/title_activity_dialog_fragment" />
+
+        <!-- <activity -->
+        <!-- android:name=".activity.TestActivity" -->
+        <!-- android:label="@string/title_activity_test" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.ProgressBarActivity" -->
+        <!-- android:label="@string/title_activity_progress_bar" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.GlideActivity" -->
+        <!-- android:label="@string/title_activity_glide" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.CustomActivityOnCrashActivity" -->
+        <!-- android:label="@string/title_activity_custom_activity_on_crash" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.PaoloRotoloActivity" -->
+        <!-- android:label="@string/title_activity_paolo_rotolo" > -->
+        <!-- </activity> -->
+        <activity android:name=".activity.DetailsActivity" />
+        <!-- android:name=".activity.GridPasswordViewActivity" -->
+        <!-- android:label="@string/title_activity_grid_password_view" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".activity.FlowLayoutActivity"
+            android:label="@string/title_activity_flow_layout" />
+        <!-- <activity -->
+        <!-- android:name=".activity.NotificationsActivity" -->
+        <!-- android:label="@string/title_activity_notifications" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".activity.ProgressAcitivty"
+            android:label="@string/title_activity_progress_acitivty" />
+        <!-- <activity -->
+        <!-- android:name=".activity.TextSwitcherActivity" -->
+        <!-- android:label="@string/title_activity_text_switcher" > -->
+        <!-- </activity> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.PullListviewActivity" -->
+        <!-- android:label="@string/title_activity_pull_listview"></activity> -->
+        <!-- <activity android:name=".activity.SystemBarActivity"></activity> -->
+    </application>
+
+</manifest>

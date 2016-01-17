@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Indigo_colorPrimary"
+    android:orientation="vertical">
+    //-------------------------------------------------------------//
+    <include
+        layout="@layout/common_header"
+        android:visibility="gone"/>
+    //-------------------------------------------------------------//
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+    </android.support.v7.widget.Toolbar>
+
+    //-------------------------------------------------------------//
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        //----------------------------------------------------//
+        <FrameLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        //----------------------------------------------------//
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nv_header_draw"
+            app:menu="@menu/nv_menu_draw"
+            app:itemBackground="@drawable/drawer_items_bkg"/>
+        //----------------------------------------------------//
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_orange_deep"
+            android:layout_gravity="right" />
+    </android.support.v4.widget.DrawerLayout>
+    //-------------------------------------------------------------//
+
+</LinearLayout>

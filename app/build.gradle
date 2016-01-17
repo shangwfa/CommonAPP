@@ -1,0 +1,113 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+def AAVersion = '3.3.2'
+android {
+    compileSdkVersion 21
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.wjs.myapplication"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 2
+        versionName "2.0"
+     }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.3.1'
+    //--------------------------------------------------------------------------------------------//
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.3.1'
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //    compile files('D:/AndroidDemo/MyApplication/libs/annotations-12.0.jar')
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //在app崩溃的时候显示自定义的activity，而不是系统自带的 "Unfortunately, X has stopped" 对话框
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    //--------------------------------------------------------------------------------------------//
+
+    // compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:percent:22.2.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.google.zxing:core:3.2.0'
+    compile 'com.github.itsmechlark:android-sliding-menu:1.0.1'
+    compile 'cn.trinea.android.common:trinea-android-common:4.2.15'
+    compile 'com.orhanobut:logger:1.10'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+    compile 'net.steamcrafted:materialiconlib:1.0.3'
+    compile 'com.github.bumptech.glide:glide:3.6.0'
+    compile 'cat.ereza:customactivityoncrash:1.2.0'
+    compile 'cn.bingoogolapple:bga-badgeview:1.0.0@aar'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.takwolf.android:lock9view:0.0.6'
+    compile 'com.github.siyamed:android-shape-imageview:0.9.+@aar'
+    compile 'com.github.paolorotolo:appintro:3.1.0'
+    compile 'com.android.support:design:22.2.0'
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    compile "org.androidannotations:androidannotations-api:$AAVersion"
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.github.zhaokaiqiang.klog:library:1.3.0'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+
+
+    testCompile 'junit:junit:4.10'
+    testCompile 'org.robolectric:robolectric:3.0'
+    testCompile 'org.mockito:mockito-core:1.+'
+
+
+    compile 'com.squareup.retrofit:retrofit:2.0.0-beta1'
+    compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta3'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'io.reactivex:rxjava:1.1.0'
+
+}
+
+

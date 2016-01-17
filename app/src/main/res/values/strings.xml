@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ucpopup_window">UCPopupWindowActivity</string>
+    <string name="title_activity_scroll_view_and_list_view">ScrollViewAndListViewActivity</string>
+    <string name="title_activity_wane_image_view">WaneImageViewActivity</string>
+    <string name="title_activity_drawer_layout">DrawerLayoutActivity</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="title_activity_fragment_tab_host">FragmentTabHostActivity</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_message">消息</string>
+    <string name="tab_friend">友好</string>
+    <string name="tab_square">广场</string>
+    <string name="tab_more">更多</string>
+
+    <string name="tip_double_click_exit">再次点击退出当前APP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_zrc_list_view">ZrcListViewActivity</string>
+    <string name="title_activity_swipe_refresh_layout">SwipeRefreshLayoutActivity</string>
+    <string name="title_activity_sliding_menu">SlidingMenuActivity</string>
+    <string name="title_activity_animation">AnimationActivity</string>
+    <string name="title_activity_umeng_update">UmengUpdateActivity</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="title_activity_vdhlayout">VDHLayoutActivity</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="title_activity_youtube">YoutubeActivity</string>
+    <string name="title_activity_gesture_detector">GestureDetectorActivity</string>
+    <string name="title_activity_view_drag_helper">ViewDragHelperActivity</string>
+
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="title_activity_sticky_nav_layout">StickyNavLayoutActivity</string>
+    <string name="title_activity_li__yong__them__qie__huan_">Li_Yong_Them_Qie_Huan_Activity</string>
+    <string name="title_activity_common_adapter">CommonAdapterActivity</string>
+    <string name="title_activity_event_bus">EventBusActivity</string>
+    <string name="title_activity_view_pager_animation">ViewPagerAnimationActivity</string>
+    <string name="title_activity_dialog_fragment">DialogFragmentActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_progress_bar">ProgressBarActivity</string>
+    <string name="title_activity_glide">GlideActivity</string>
+    <string name="title_activity_custom_activity_on_crash">CustomActivityOnCrashActivity</string>
+    <string name="title_activity_paolo_rotolo">PaoloRotoloActivity</string>
+
+
+    <string name="customized_intro">Start custom Intro</string>
+    <string name="default_intro">Start default Intro</string>
+    <string name="fade_animation">Set Fade animation</string>
+    <string name="custom_animation">Set custom Transformer</string>
+    <string name="progress_indicator">Set progress indicator</string>
+    <string name="custom_indicator">Set custom indicator</string>
+    <string name="second_layout_intro">Start Intro with Layout 2</string>
+    <string name="title_activity_default_intro">DefaultIntro</string>
+    <string name="title_activity_custom_intro">CustomIntro</string>
+    <string name="title_activity_second_intro">SecondLayoutIntro</string>
+    <string name="skip">Y U DO DIS TO ME?</string>
+    <string name="header_animations">Animations</string>
+    <string name="header_indicators">Indicators</string>
+    <string name="zoom_animation">SET ZOOM ANIMATION</string>
+    <string name="flow_animation">SET FLOW ANIMATION</string>
+    <string name="depth_animation">SET DEPTH ANIMATION</string>
+    <string name="slideover_animation">SET SLIDEOVER ANIMATION</string>
+    <string name="browse_title"><![CDATA[Videos by Your Company]]></string>
+    <string name="related_movies">Related Videos</string>
+    <string name="vertical_grid_title"><![CDATA[Vertical Video Grid]]></string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="init_text">00:00</string>
+    <string name="play_pause_description">Play Pause Button</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="no_video_found">No video was found</string>
+    <string name="about_app">About DemoCast Player</string>
+    <string name="version">Version: %1$s</string>
+    <string name="popular_header">Popular Videos</string>
+    <string name="preferences">PREFERENCES</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+    <string name="should_start">shouldStart</string>
+    <string name="start_position">startPosition</string>
+    <string name="search_results">Search Results</string>
+
+    <!-- Error messages -->
+    <string name="video_error_media_load_timeout">Media loading timed out</string>
+    <string name="video_error_server_inaccessible">Media server was not reachable</string>
+    <string name="video_error_unknown_error">Failed to load video</string>
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="oops">Oops</string>
+    <string name="title_activity_grid_password_view">GridPasswordViewActivity</string>
+    <string name="title_activity_chenjin">ChenjinActivity</string>
+    <string name="title_activity_flow_layout">FlowLayoutActivity</string>
+    <string name="title_activity_notifications">NotificationsActivity</string>
+    <string name="title_activity_progress_acitivty">ProgressAcitivty</string>
+    <string name="title_activity_text_switcher">TextSwitcherActivity</string>
+
+
+    <!--下拉刷新组件-->
+    <string name="pull_to_refresh_pull_label_it">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label_it">松开即可刷新</string>
+    <string name="pull_to_refresh_refreshing_label_it">正在刷新数据...</string>
+    <string name="pull_to_refresh_updated_at">上次更新时间:%1$s</string>
+    <string name="pull_to_refresh_pull_label" translatable="false">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_release_label" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label" translatable="false">加载中&#8230;</string>
+    <string name="pull_to_refresh_tap_label" translatable="false">点击刷新</string>
+    <!--上拉加载更多-->
+    <string name="string_load_more_empty">已经没有更多数据了</string>
+    <string name="string_load_more">上拉加载更多</string>
+    <string name="string_load_more_error">加载更多数据失败</string>
+    <string name="string_load_more_click">点击加载更多</string>
+    <string name="string_load_more_ing">正在加载更多数据</string>
+    <string name="string_load_more_net">网络错误</string>
+    <string name="title_activity_pull_listview">PullListviewActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main22">Main22Activity</string>
+</resources>
