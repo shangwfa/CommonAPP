@@ -5,10 +5,12 @@
     android:background="@android:color/darker_gray"
     android:gravity="center"
     android:orientation="vertical">
-   <TextView
-       android:layout_width="40dp"
-       android:layout_height="40dp"
-       android:clickable="true"
-       android:background="@drawable/test"/>
+
+    <TextView
+        android:id="@+id/fonts"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:text="shangwfa" />
 
 </LinearLayout>

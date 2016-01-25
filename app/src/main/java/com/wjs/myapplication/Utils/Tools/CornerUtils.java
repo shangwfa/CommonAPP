@@ -21,7 +21,6 @@ public class CornerUtils {
         final GradientDrawable bg = new GradientDrawable();
         bg.setCornerRadii(cornerradius);
         bg.setColor(bgColor);
-
         return bg;
     }
 
