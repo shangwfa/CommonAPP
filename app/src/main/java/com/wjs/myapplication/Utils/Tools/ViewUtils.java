@@ -1,7 +1,10 @@
 package com.wjs.myapplication.Utils.Tools;
 
+import android.content.Context;
+import android.support.v4.view.ViewConfigurationCompat;
 import android.support.v4.view.ViewPager;
 import android.view.View;
+import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.LinearLayout;
@@ -101,6 +104,27 @@ public class ViewUtils {
         view.measure(w, h);
         return view.getMeasuredHeight();
     }
+    /**
+     * 功能：最小移动距离
+     */
+    public static int getTouchSlop(Context context){
+        ViewConfiguration configuration = ViewConfiguration.get(context);
+        // 获取TouchSlop值
+        return ViewConfigurationCompat.getScaledPagingTouchSlop(configuration);
+    }
 
+    /**
+     *功能：设置View的Margin
+     * @param view
+     * @param left
+     * @param top
+     * @param right
+     * @param bottom
+     */
+    public static void setMargin(View view,int left,int top,int right,int bottom){
+        LinearLayout.LayoutParams layoutParams= (LinearLayout.LayoutParams) view.getLayoutParams();
+        layoutParams.setMargins(left,top,right,bottom);//4个参数按顺序分别是左上右下
+        view.setLayoutParams(layoutParams);
+    }
 }
 
